@@ -1,0 +1,27 @@
+With the consideration of component vectors, the following equation was used to find the acceleration acting on the x and y faces for their respective data. 
+
+a = 1*(gravity acceleration) *sin(angle)
+In this equation, 1 g is equal to the gravitational acceleration constant. 
+The calculated value of acceleration was plotted on the x-axis of a graph against the least significant bit. 
+The least significant bit was found with the following equation.  
+
+LSB = (output)*(# of bits) / (output range)
+
+
+The resulting graphs were then fitted with lines of best fit to observe linearity. The slope of this line is equal to the sensitivity of the sensor. (Check MPU-X/Yaxis Graphs)
+
+Improvements -  
+The idea behind this testing was that since the sensor outputs 1 g in the downward direction when stationary and level, 
+9.81 m/s2 could be a control value coming from the gravitational constant. 
+From there, the sine of the angle at which the sensor was placed from level would be multiplied by the gravitational constant to get the acceleration of the side axis. 
+However, due to the kinematic nature of acceleration, this plan was flawed. It is uncertain that the ideas governing this plan were even accurate.  
+An appropriate way to conduct this test would be far removed from the original plan. 
+A more appropriate method for testing sensitivity would be to attach the sensor to a rotating platform. 
+The platform’s cycles per minute and the distance between the sensor and the center of rotation could be used to find the sensor’s centripetal acceleration. 
+The sensor could then be moved further from the axis or rotation to achieve multiple accelerations. 
+This can then be repeated to find measurements for each axis of the sensor. The data could then be compiled in a comparable manner.  
+When deciding upon a method for acquiring data, a major concern was preventing complications. 
+The motion could easily cause tension in the wiring and either disconnect the sensor or damage the equipment. 
+In a future attempt, it may be beneficial to find a method for remotely collecting the data. 
+This would untether the sensor from the bulky computer allowing for a freer range of motion. 
+
