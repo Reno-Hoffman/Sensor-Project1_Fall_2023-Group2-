@@ -1,0 +1,62 @@
+First, a level was used to ensure the work surface was smooth and flat. 
+Once this was confirmed, a reading was collected for the level accelerometer. 
+Then, the accelerometer was adjusted to a steeper angle using 5 degree increments
+around the x-axis with the help of items such as paper and cup holders.
+A digital angle finder was used to attain 5 degree increments. 
+After each initial measurement, the sensor was left in place for a
+2 minute period before collecting another reading. Once 15 degrees was reached, 
+the process was repeated around the y-axis. 
+The relative error between the initial and final readings were averaged
+to find a value for drift.  
+
+Next, the sensor was placed in a level position and a reading was collected. 
+It was then rotated around the y-axis until a change was registered 
+in the acceleration reading in the x-direction.
+A digital angle finder was used to collect a reading for the sensor’s 
+angle off of level. This process was then repeated until at 
+least 6 sets of values were recorded. 
+The process was then repeated observing the y-direction 
+while rotating around the x-axis.
+
+g along x-axis      Degrees from level 
+
+-0.06                      6.7 
+-0.08                      8.5 
+-0.1                       9.1 
+-0.11                      9.6 
+-0.13                      10.1 
+-0.14                      10.85 
+-0.16                      11.55 
+
+ 
+g along y-axis        Degrees from level 
+
+0.02                       2.45 
+0.03                       3.35 
+0.04                       3.95 
+0.06                       4.9 
+0.08                       5.65 
+0.09                       6.45 
+0.11                       7.3 
+0.13                       8.6 
+0.15                       9.6 
+
+
+Angle around x-axis in degrees       Initial reading         Delayed reading 
+0                                  <0.03, -0.02, 1.10>     <0.03, -0.02, 1.12> 
+5                                  <0.04, -0.05, 1.11>     <0.04, -0.06, 1.10> 
+10                                 <0.04, -0.17, 1.10>     <0.04, -0.17, 1.09> 
+15                                 <0.01, -0.26, 1.07>     <0.01, -0.26, 1.07> 
+
+ 
+
+ 
+
+Angle around y-axis in degrees      Initial reading          Delayed reading 
+
+0                                <0.03, -0.02, 1.10>      <0.03, -0.02, 1.12> 
+5                                <-0.05, -0.01, 1.10>     <-0.05, -0.01, 1.10> 
+10                               <-0.13, -0.01, 1.09>     <-0.13, -0.01, 1.09> 
+15                               <-0.22, -0.01, 1.07>     <-0.22, -0.01, 1.07> 
+
+
