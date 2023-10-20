@@ -1,0 +1,13 @@
+MPU-6050 
+
+The MPU-6050 tracks motion. It uses a 3-axis accelerometer which uses piezo-electric effects to track the acceleration acting on it in unit vectors. 
+This includes acceleration from motion and gravity. 
+It also uses a 3-axis Gyroscope to measure the change in angle over time around the unit axes.  
+To measure the static characteristics of the MPU-6050, acceleration and orientation must be considered. For static state acceleration, the drift and static error can be measured. 
+The drift can be measured by placing the sensor in a stationary position and observing deviations in the acceleration over time. 
+The static error can be measured by observing the error between the acceleration of the sensor while stationary and its output. 
+This can be repeated with the sensor in varying orientations. The values will be compared to a level and the angles will be oriented with the aid of a protractor. 
+To obtain expected values, trigonometry, and physics will be used in calculations. To check the static characteristics of the gyroscope in the sensor, 
+the same characteristics can be measured. The drift will be found by leaving the sensor in a stationary position and observing the variation from zero over time.
+The static error can then be measured by once again leaving the sensor in a stationary position and finding the absolute error from the observed values. 
+Other applicable characteristics will be measured in a similar manner. 
