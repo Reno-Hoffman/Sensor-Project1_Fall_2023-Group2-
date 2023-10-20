@@ -1,0 +1,10 @@
+The basic idea for analysis is inputting information into Excel for graphing and determining static characteristics.
+
+After testing, the detection range of this type of sensor is 2.1cm to 186.5cm, which is less than 2cm to 400cm. 
+In addition, the static error of this type of sensor is 0.445cm, with a precision of 0.63mm, which is much smaller than the 3mm in the manufacturer's datasheet. 
+In the end, we believe that the testing performance of this sensor is poor. 
+
+Discussion: 
+
+In this experiment, we gained a certain understanding of the working principle and performance of ultrasonic sensors. 
+We hope to minimize the impact of environmental noise on this experiment in future experiments. 
