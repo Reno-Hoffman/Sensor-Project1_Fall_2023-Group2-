@@ -1,1 +1,14 @@
 
+The DHT11 is a simple, inexpensive digital temperature and humidity sensor.
+It uses a capacitive humidity sensor and a thermistor to measure the surrounding air and spits out a digital signal on the data pin. 
+From the findings and basic overview, calibration of the specific DHT11 was minimal. 
+
+
+Test proposal -  
+To measure almost all the static characteristics of the DHT11 a variety of different environments will be simulated and placing the sensor next to different objects that 
+will affect the temperature and humidity of the readings from the sensor. 
+These readings will be compared to both the datasheet and an additional temperature and humidity measuring device that will serve as a control when compared to the sensor. 
+The DHT will be placed in colder environments that will be compiled to find the sensitivity through graphing the measured against the control.
+Resolution will be similarly tested however it will be looking for the smallest change detectable be the sensor. 
+All other static characteristics will be tested similarly with comparison to the data spreadsheet, the control measuring device, and the different simulated environments. 
+Control will use Acurite indoor temperature and humidity thermometer. 
