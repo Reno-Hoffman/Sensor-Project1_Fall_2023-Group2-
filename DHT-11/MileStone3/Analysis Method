@@ -1,0 +1,4 @@
+For determining all static characteristics of temperature plug in measured values into Excel and find the linear fit that describes your data. this fits slope will
+describe your sensitivity. Your Resolution is determined by your display code/Arduino setup, as well as the smallest change in the graph information.
+
+For Humidity, you could either use Excel or MatLab for plotting dynamic information and using inbuilt systems to find linear fit and resolution.
