@@ -8,4 +8,6 @@ Milestone #1: This folder will contain the background of the sensor, the initial
 
 Milestone #2:  This will be an example of a simulated test and the raw collected results from each test.
 
-Milestone #3: This will contain an example of how to analyze data collected to find static characteristics. It will also have a written summary of our test results and our additional comments and possible improvement ideas.
+Milestone #3: This will contain an example of analyzing data collected to find static characteristics. It will also have a summary of our test results, our additional comments, and possible improvement ideas.
+
+Allow with the milestone folders are some individual files for an overview of formating information into different word documents and a presentation.
