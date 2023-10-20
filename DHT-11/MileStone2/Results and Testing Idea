@@ -1,11 +1,14 @@
-The basic idea was to simulate different environments finding different locations accessible to to test the sensing device and then comparing to control.
+The basic idea was to simulate different environments finding different locations accessible to to test the sensing device and then comparing it to the control.
 
-
+For temperature, I found colder environments in my house and would allow both my control and my DHT-11 to stabilize and then mark down the displayed values of both.
+For humidity, I simulated a higher humidity environment by placing both the Acurite measuring device and my DHT-11 into the box and then placing towels that were dunked into 
+hot water into the box to measure the rising humidity then take note of the maximum reached humidity value both on DHT-11 and control.
 
 Temperature Results
+
 Measured °C	Control
-19.3	        20
-13.6	        15
+19.3	      20
+13.6	      15
 9.8	          10
 3.1	           4
 1.9	           1
