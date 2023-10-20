@@ -1,1 +1,14 @@
 
+Ultrasonic Ranging Module 
+The theory of an ultrasonic sensor is to emit a sound wave of a certain frequency at one end of the sensor. 
+When this sound wave contacts the surface of an object, it will rebound back to the receiver, 
+thereby obtaining the distance between the sensor and the measured object. 
+Ultrasonic ranging module provides 2cm (about 0.79 in) - 400cm (about 13.12 ft) non-contact measurement function, and the ranging accuracy can reach to 3mm (about 0.12 in). 
+It can ensure that the signal is stable within 5m, and the signal is gradually weakened after 5m, till the 7m position disappears.  
+
+For this part we will find the range, static error, and precision of ultrasonic ranging module. 
+To measure the range, firstly we plan to put an object in front of the ultrasound sensor. 
+We will increase the distance between it and the object gradually (Stop measuring until normal data cannot be displayed). 
+Then we will observe the changes in the measured data and record it down. 
+To get static error, we will first record the data measured between the maximum range and the minimum range and then calculate the error. 
+To get the Precision, we can calculate it by the standard deviation with a set of readings of the sensor for the same input. 
